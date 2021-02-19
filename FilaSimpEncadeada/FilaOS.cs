@@ -99,6 +99,10 @@ namespace FilaSimpEncadeada
 					}
 					aux = aux.Proximo;
 				} while (aux != null);
+				if (found == false)
+				{
+					Console.WriteLine("Ordem de servico nao encontrada! ");
+				}
 				Console.WriteLine("\n >>> FIM <<<");
 			}
 		}
